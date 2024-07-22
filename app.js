@@ -45,11 +45,6 @@ app.listen(8000, () => {
   console.log("server Start");
 });
 
-// app.get("/", (req, res) => {
-//   res.send("Root IS Here");
-// });
-
-
 const   store=MongoStore.create({
     mongoUrl:db_Url,
     crypto:{
