@@ -12,7 +12,7 @@ body{
 }
 .navbar{
     height: 3.5rem;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 .fa-compass{
@@ -24,12 +24,12 @@ body{
 }
 
 .f-info-links a {
-    text-decoration: none;
+    text-decoration: none !important;;
     color: #222222;
 }
 
 .f-info-links a:hover{
-    text-decoration: underline;
+    text-decoration: underline !important; ;
 }
 
 .f-info-links{
@@ -50,12 +50,12 @@ body{
 }
 .f-info{
     background: #ebebeb;
-    display: flex;
-    height: 6rem;
+    display: flex !important;;
+    height: 6rem !important;;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
-    text-align: center;
+    justify-content: center !important;;
+    align-items: space-evenly !important;
+    text-align: center !important;;
 }
 
 .add-btn{
