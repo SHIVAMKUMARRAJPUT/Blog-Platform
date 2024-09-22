@@ -12,7 +12,7 @@ const { storage } = require("../cloudConfig.js");
 const upload = multer({ storage });
 const listingcontroller = require("../controllers/listings.js");
 
-router.get("/listings", wrapAsync(listingcontroller.index));
+router.get("/listing", wrapAsync(listingcontroller.index));
 
 //SHOW ROUTE
 
